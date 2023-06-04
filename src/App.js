@@ -19,7 +19,7 @@ function App() {
   }, []);
 
   return (
-    <div className="App bg-gradient-to-r from-purple-200 to-pink-200">
+    <div className="App bg-gradient-to-r from-purple-200 to-pink-200 overflow-x-hidden">
       <Front />
       <Info />
       <DresCode />
